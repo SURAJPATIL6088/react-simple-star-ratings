@@ -1,8 +1,9 @@
 {
   "name": "react-simple-stars-rating",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An npm package for Different types of rating for your project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/SURAJPATIL6088/react-simple-stars-rating/issues"
   },
-  "homepage": "https://github.com/SURAJPATIL6088/react-simple-stars-rating#readme"
+  "homepage": "https://github.com/SURAJPATIL6088/react-simple-stars-rating#readme",
+  "devDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.20.0"
+  }
 }
