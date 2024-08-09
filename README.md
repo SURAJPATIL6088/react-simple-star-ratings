@@ -2,13 +2,52 @@
 
 > A simple npm package for Different Types of Rating to your project.
 
-[![NPM](https://img.shields.io/npm/v/react-simple-stars-rating.svg)](https://www.npmjs.com/package/react-simple-stars-rating) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) ![npm bundle size](https://img.shields.io/bundlephobia/min/react-simple-stars-rating) ![GitHub](https://img.shields.io/github/license/SURAJPATIL6088/react-simple-stars-rating)
+[![NPM](https://img.shields.io/npm/v/react-simple-stars-rating.svg)](https://www.npmjs.com/package/react-simple-stars-rating) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) ![GitHub](https://img.shields.io/github/license/SURAJPATIL6088/react-simple-stars-rating)
+
+<hr/>
 
 ## Install
+- <b>npm</b>
+```npm
+npm i react-simple-stars-rating
+```
+
+<hr/>
+
+- Import the package in your app:
+```js
+import {StarRating} from 'react-simple-stars-rating';
+```
+
+- Get the Component from the package
+```js
+<StarRating />
+```
+<hr/>
 
 ## Usage
 
-### Available Props
+```
+import React from 'react'
+import {StarRating} from 'react-simple-stars-rating';
+import './App.css'
+
+function App() {
+
+  return (
+    <>
+      <h1>Star Rating in React</h1>
+      <StarRating/>
+    </>
+  )
+}
+
+export default App;
+```
+
+<hr/>
+
+## Available Props
 
 | Prop                 | Type             | Options  | Description                                               |          Default           |
 | -------------------- | ---------------- | -------- | --------------------------------------------------------- | :------------------------: |
@@ -31,6 +70,7 @@
 | `tooltipArray`       | array            | Optional | Array of strings to show inside tooltip                   |            `[]`            |
 | `tooltipClassName`   | string           | Optional | Tooltip CSS class                                         |      `rating-tooltip`      |
 ---
+
 
 ### License
 Apache License 2.0 © [SURAJPATIL6088](https://github.com/SURAJPATIL6088/)

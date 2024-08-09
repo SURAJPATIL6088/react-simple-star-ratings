@@ -1,0 +1,5 @@
+src
+rollup.config.js
+.vscode
+react-simple-stars-rating*.tgz
+.DS_Store
