@@ -1,5 +1,5 @@
 {
-  "name": "react-simple-stars-rating",
+  "name": "react-simple-star-ratings",
   "version": "0.1.2",
   "description": "An npm package for Different types of rating for your project",
   "main": "dist/index.js",
@@ -10,12 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SURAJPATIL6088/react-simple-stars-rating.git"
+    "url": "git+https://github.com/SURAJPATIL6088/react-simple-star-ratings.git"
   },
   "keywords": [
     "npm",
     "ratings",
-    "react"
+    "react",
+    "star",
+    "emoji",
+    "custom",
+    "default"
   ],
   "author": "Suraj Patil",
   "license": "Apache-2.0",
