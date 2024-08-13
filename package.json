@@ -1,6 +1,6 @@
 {
   "name": "react-simple-star-ratings",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "An npm package for Different types of rating for your project",
   "main": "dist/index.js",
   "type": "module",
